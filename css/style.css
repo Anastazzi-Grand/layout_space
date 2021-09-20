@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.header{
+    background-image: url(../images/header_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}П
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0 30px;
+}
+.menu__list{
+    display: flex;
+}
+
+.menu__item{
+    margin-right: 30px;
+}
